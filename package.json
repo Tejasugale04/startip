@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
-    "serve": "serve -s build -p 3000",
+    "serve": "serve -s build -l tcp://0.0.0.0:$PORT",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
