@@ -1,0 +1,51 @@
+.Head{ height: 900px; width: 1400px ;
+    background-image: linear-gradient(to right, black,transparent),url('./Head/male-worker-explaining-marketing-plans-female-coworker.jpg') ;
+  
+ background-size: cover;
+background-repeat: no-repeat;}
+
+.Head2{padding-left: 150px;padding-top: 100px;
+        font-size: 10px;}
+.HeadFlex{height: 250px; width: 1400px;
+    display: flex;
+margin-top: 150px;}
+.HeadFlexbox{height: 250px; width: 1400px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: center;}        
+
+.HeadFlexbox div{height: 160px; width: 350px;
+border: dashed 1px white;
+backdrop-filter: blur(2px);
+margin: 20px;}
+
+.HeadFlexbox div:hover{background:linear-gradient(to right,#61ffec,#61ffd0);
+transition-delay: 3s;}
+
+.What{height: 500px; width: 1400px;}
+
+.What1{height: 300px; width: 1400px;
+display: flex;}
+
+.What11{height: 300px; width: 550px; float: left;
+margin-left: 20px;}
+.What111{background:linear-gradient(to right,#73d2c7,#61ffd0);
+padding: 8px; margin-left: 130px;
+margin-top: 20px;}
+
+ .What12{height: 300px; width: 400px; float: left;}
+
+    .What121{background:linear-gradient(to right,#73d2c7,#61ffd0);
+        padding: 8px;
+        margin-top: 20px;}
+
+.What13{height: 300px; width: 400px; float: left;}
+   
+ 
+ .What131{background:linear-gradient(to right,#73d2c7,#61ffd0);
+    padding: 8px;
+    margin-top: 20px;}
+
+
