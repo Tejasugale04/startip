@@ -13,11 +13,11 @@ export default function Head() {
             
 
             <li className="nav-item" style={{paddingLeft:"100px"}}>
-                <img src={logo} style={{width:"50px"}}></img>
+                <img src={logo} alt="StarIP Logo" style={{width:"50px"}}></img>
                 <span style={{color:"white",fontSize:"20px"}}>StarIP</span>
             </li>
             <li className="nav-item" style={{paddingLeft:"400px"}}>
-                <a className="nav-link dropdown-toggle  " data-bs-toggle="dropdown"aria-expanded="false" style={{fontSize:"17px",color:"white"}}>Home</a>
+                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" style={{fontSize:"17px",color:"white"}}>Home</a>
                 <div className='dropdown-menu' style={{height:"150px", width:"200px",backgroundColor:"white"}}>
                     
                 <a className="dropdown-item" href="#">Action</a>
